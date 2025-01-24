@@ -1,0 +1,71 @@
+.footer {
+    background-color: #573939;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Added spacing below the content block */
+    margin-top: 20px; !<--needed so if at the top of the page there is padding from the nav-->
+    
+}
+h1 {
+    font-weight: bolder;
+    color:rgb(6, 123, 4)
+
+}
+h2 {
+    font-weight: bolder;
+    color:rgb(6, 123, 4)
+
+}
+
+h3 {
+    font-weight: bolder;
+    color:rgb(6, 123, 4)
+
+}
+h1 {
+    font-weight: bolder;
+    color:rgb(6, 123, 4)
+
+} 
+
+.content-image {
+    max-width: 200px; /* Set image width */
+    height: auto;
+    margin-left: 20px; /* Added margin for spacing */
+}
+.membership-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white; /* Background color for table */
+    border-radius: 8px;
+    overflow: hidden; /* To round corners of the table */
+}
+.membership-table th,
+.membership-table td {
+    border: 2px solid darkgreen;
+    padding: 10px;
+    text-align: center;
+}
+.membership-table th {
+    background-color: darkgreen;
+    color: white;
+}
+.membership-table tr:nth-child(even) {
+    background-color: #e6f2e6;
+}
+.membership-table tr:hover {
+    background-color: #c2f0c2;
+}
