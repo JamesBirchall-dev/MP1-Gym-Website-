@@ -27,35 +27,36 @@
         </div>
     </div>
 </nav>
-        <!--Contact Form-->
-    <div class="container">
-        <form action="action_page.php">
-    
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-    
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-    
-            <!-- Added Email Field -->
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-    
-            <label for="membership option">Membership Option</label>
-            <select id="country" name="country">
-                <option value="Off-peak-one-person">Off Peak Option (Single Person £15 per/month)</option>
-                <option value="peak-one-person">Full Membership (Single Person £30 per/month), </option>
-                <option value="family-membership">Family Membership (From £90 per/month)</option>
-            </select>
-    
-            <label for="subject">Family information (if applicable)</label>
-            <textarea id="subject" name="subject" placeholder="(Optional), please detail us how many adults and children and the activities you are interested in ) style="height:200px"></textarea>
-    
-            <input type="submit" value="Submit">
-    
-        </form>
+<!-- Contact Form -->
+<section id="contact-form" class="container justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <div class="contact-box"> <!-- Added this div for styling -->
+          <h2 class="sub-heading text-center">Contact us</h2><br>
+          <h6>Please fill out the below to request membership application and/or anything else we can help you with.</h6><br>
+  
+          <form action="success.html" method="GET">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input class="form-control" id="name" name="name" type="text" required>
+              </div>
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" id="email" name="email" type="email" required>
+              </div>
+              <div class="col-12 mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+              </div>
+            </div>
+  
+            <button type="submit" class="btn custom-button">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
-
+  </section>
 
  <!-- Footer -->
  <div class="footer">

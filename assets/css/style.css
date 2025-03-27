@@ -107,3 +107,38 @@ h1 {
 .membership-table tr:hover {
     background-color: #c2f0c2;
 }
+
+
+/* Form styling */
+
+#contact-form {
+    padding: 50px 0; /* Adds spacing around the form */
+    
+  }
+ 
+  .contact-box {
+    background-color: #fff; /* White background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    border: 1px solid #ddd;
+  }
+  .contact-box h6 {
+    text-align: center;
+  }
+  
+  .custom-button {
+    background-color: darkgreen; /* Dark Green color same as used in membership table*/
+    color: rgb(223,206,134);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .custom-button:hover {
+    background-color:  rgb(30,91,39); /* Darker green on hover same as navbar background */
+    color: #FFD700; /*stronger gold same as navbar link*/
+  }
+
