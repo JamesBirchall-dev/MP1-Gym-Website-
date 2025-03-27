@@ -6,7 +6,7 @@ body {
 }
 
 .custom-navbar {
-    background-color: #006400; /* Dark Green */
+    background-color: rgb(30,91,39)
 }
 
 
@@ -16,6 +16,11 @@ body {
     padding: 5px 0;
     text-align: center;
     
+}
+
+.logo {
+    height: 75px; /* to ensure text visible size in the logo picture* 
+    width: auto; /* to maintain aspect ratio */
 }
 
 .content-block {
