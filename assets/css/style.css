@@ -2,7 +2,7 @@ body {
     background-image: url('/assets/images/website\ background.png');
     background-color: white;
     background-size: cover;
-    
+       
 }
 /* must use this to match the logo background*/
 .custom-navbar {
@@ -33,6 +33,7 @@ body {
     
 }
 
+
 .logo {
     height: 75px; /* to ensure text visible size in the logo picture*/ 
     width: auto; /* to maintain aspect ratio */
@@ -58,9 +59,12 @@ body {
 }
 h1 {
     font-weight: bolder;
-    color:rgb(6, 123, 4)
-
+    color: darkgreen; /* Inside text color */
+    text-align: center;
+    -webkit-text-stroke: 2px rgb(223,206,134); /* Border thickness and color */
 }
+
+        
 h2 {
     font-weight: bolder;
     color:rgb(6, 123, 4)
@@ -72,11 +76,8 @@ h3 {
     color:rgb(6, 123, 4)
 
 }
-h1 {
-    font-weight: bolder;
-    color:rgb(6, 123, 4)
 
-} 
+ 
 
 .content-image {
     max-width: 200px; /* Set image width */
@@ -115,15 +116,15 @@ h1 {
     padding: 50px 0; /* Adds spacing around the form */
     
   }
- 
+ /*styling for the main contact form shadow affect*/
   .contact-box {
     background-color: #fff; /* White background */
     padding: 30px;
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    box-shadow: 0px 4px 10px  darkgreen;/* Soft shadow effect */
     border: 1px solid #ddd;
   }
-  .contact-box h6 {
+  .contact-box p {
     text-align: center;
   }
   
@@ -140,5 +141,12 @@ h1 {
   .custom-button:hover {
     background-color:  rgb(30,91,39); /* Darker green on hover same as navbar background */
     color: #FFD700; /*stronger gold same as navbar link*/
+  }
+   /*styling for the contact form input fields shadow affect*/
+  .form-control:focus {
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px #FFD700;/* Soft shadow effect */
+    border: 1px solid #ddd;
   }
 
