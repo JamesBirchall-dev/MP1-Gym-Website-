@@ -150,3 +150,21 @@ h3 {
     border: 1px solid #ddd;
   }
 
+.btn {
+    padding: 10px 20px;  /* Adds spacing inside the button */
+    font-size: 16px;  
+    font-weight: bold;  /* bold text*/
+    text-align: center;  /* Centers button text */
+    border-radius: 5px;  /* Rounds corners */
+      }
+
+.btn-primary {
+        background-color: #573939; /* grey background same as footer to stand out on page */
+        color: white;  /* White text for contrast */
+        border: 2px solid  #573939; 
+}
+
+.btn-primary:hover {
+    background-color: darkgreen;  /*dark green with yellow border on hover*/
+    border-color: #FFD700; 
+  }
