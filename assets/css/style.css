@@ -168,3 +168,22 @@ h3 {
     background-color: darkgreen;  /*dark green with yellow border on hover*/
     border-color: #FFD700; 
   }
+
+/*map styling to show underneath*/
+.map-container {
+    margin-top: 20px; /*  space  text and map */
+    text-align: center; 
+}
+
+.map-container iframe {
+    width: 100%; /* Makes the map responsive for device */
+    max-width: 768px; /* Prevents the map from getting too large */
+    height: 450px; /* fixed height */
+  
+}
+.building-image {
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    float:
+}
