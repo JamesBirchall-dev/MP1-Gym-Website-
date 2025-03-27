@@ -1,9 +1,21 @@
+body {
+    background-image: url('/assets/images/website\ background.png');
+    background-color: white;
+    background-size: cover;
+    
+}
+
+.custom-navbar {
+    background-color: #006400; /* Dark Green */
+}
+
+
 .footer {
     background-color: #573939;
     color: white;
     padding: 5px 0;
     text-align: center;
-
+    
 }
 
 .content-block {
