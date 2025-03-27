@@ -4,11 +4,26 @@ body {
     background-size: cover;
     
 }
-
+/* must use this to match the logo background*/
 .custom-navbar {
     background-color: rgb(30,91,39)
 }
+/*hover over functionality for navbar*/
+.navbar-nav .nav-link {
+    color: rgb(223,206,134); /* Default color */
+    
+}
 
+/* Active link color to match the default color */
+.navbar-nav .nav-link.active {
+    color: rgb(223, 206, 134); /* Ensure active link matches default */
+    background-color: transparent; /* Remove background color for active state */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700; /* Change color on hover */
+    text-decoration: underline; /* underline on hover*/
+}
 
 .footer {
     background-color: #573939;
@@ -19,7 +34,7 @@ body {
 }
 
 .logo {
-    height: 75px; /* to ensure text visible size in the logo picture* 
+    height: 75px; /* to ensure text visible size in the logo picture*/ 
     width: auto; /* to maintain aspect ratio */
 }
 
@@ -32,7 +47,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px; /* Added spacing below the content block */
-    margin-top: 20px; !<--needed so if at the top of the page there is padding from the nav-->
+    margin-top: 20px; /*needed so if at the top of the page there is padding from the nav-->*/
     
 }
 h1 {
