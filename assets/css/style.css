@@ -48,7 +48,13 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px; /* Added spacing below the content block */
     margin-top: 20px; /*needed so if at the top of the page there is padding from the nav-->*/
-    
+}  
+    .center {
+        max-width: 100%; /* Ensures the image width doesn’t exceed the container width */
+        height: auto;    /* Keeps the aspect ratio intact */
+        display: block;  /* Ensures the image is displayed as a block (removes extra space below) */
+        margin: 0 auto;  /* Centers the image horizontally */
+
 }
 h1 {
     font-weight: bolder;
