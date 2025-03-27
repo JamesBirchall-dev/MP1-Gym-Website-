@@ -16,7 +16,7 @@ body {
 
 /* Active link color to match the default color */
 .navbar-nav .nav-link.active {
-    color: rgb(223, 206, 134); /* Ensure active link matches default */
+    color: #FFD700; /* Ensure active link matches default */
     background-color: transparent; /* Remove background color for active state */
 }
 

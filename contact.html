@@ -110,6 +110,21 @@
     <!-- Bootstrap JS and Popper.js -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <script>
+        // Get the current page URL
+        const currentPage = window.location.pathname;
+
+        // Select all the links in the navbar
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+        // Loop through the links and add the 'active' class to the current page's link
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPage) {
+                link.classList.add('active');
+            }
+        });
+    </script>
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" href="assets/css/style.css">
 </body>
